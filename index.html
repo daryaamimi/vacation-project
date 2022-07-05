@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vacation Destination Wish List</title>
+    <link rel="stylesheet" href="src/styles.css" />
+    <script src="src/script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>Vacation Destination Wish List</h1>
+      <p>
+        Found existing places to visition on your next vacation? Use the form
+        below to add the to your wish list
+      </p>
+    </header>
+    <div id="middle-section">
+      <section>
+        <form id="destination-form">
+          <label for="name">
+            <strong> Destination name </strong>
+          </label>
+          <input
+            type="text"
+            placeholder="Enter the name of the destination"
+            id="name"
+            autocomplete="off"
+          />
+          <label for="location">
+            <strong> Location </strong>
+          </label>
+          <input
+            type="text"
+            placeholder="Where is located?"
+            id="location"
+            autocomplete="off"
+          />
+
+          <label for="photo">
+            <strong> Photo </strong>
+          </label>
+          <input
+            type="url"
+            placeholder="Enter an image url of the place"
+            id="photo"
+            autocomplete="off"
+          />
+
+          <label for="description">
+            <strong> Description </strong>
+          </label>
+          <input
+            type="text"
+            placeholder="Enter the name of the destination"
+            id="description"
+            autocomplete="off"
+          />
+
+          <input type="submit" id="add" value="Add to list!" />
+        </form>
+      </section>
+      <section class="card-container">
+        <h2 id="title">My Wish List</h2>
+      </section>
+    </div>
+  </body>
+</html>
